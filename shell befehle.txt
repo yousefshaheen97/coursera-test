@@ -11,3 +11,8 @@ HTML
 & = &amp;
 < = &lt;
 > = &gt;
+
+<h>...</h> it is just a subheading
+<p>...</p> it is just a paragraph 
+<span>....</span> it used to mark a part of the text to allow us to modify it 
+<div>...</div> it used to devision part of document to allow us to modify all the part
