@@ -1,9 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello World</title>
+	<meta charset="utf-8">
+	<title>my first page</title>
 </head>
 <body>
-<h1>Hello World</h1>
+	<header>
+    header element - Some header information goes here. Usually consists of company logo, some tag line, etc. Sometimes, navigation is contained in the header as well.
+    <nav>nav (short for navigation) element - Usually contains links to different parts of the web site.
+    	<ul>
+	      <!-- Link to every section in the page -->
+	      <li><a href="#add picture">Add picture in HTML</a></li>
+	      <li><a href="#Main Heading of the Page">Main heading of the page</a></li>
+	      <li><a href="#Subheading in HTML">Subheading in HTML</a></li>
+	      <li><a href="#Semantik in HTML">Semantik in HTML</a></li>
+	      <li><a href="#Lists in HTML">Lists in HTML</a></li>
+	      <li><a href="#section1">Links in HTML</a></li>
+    	</ul>
+    	<a href="https://www.facebook.com/yousefshaheen97/" 
+      	target="_blank" title="LIKE AND SUBSCRIBE">My Facebook Page!</a>
+    </nav>
+
+    
+ 	</header>
+	<h1 style="color: red; font-size: 60px; text-align: center;" id="top">HTML is Structure Only</h1>
+	<p id="add picture"> I can add Picture :) </p>
+	<p>	<img src="https://www.freecodecamp.org/news/content/images/2021/08/html.png" width="640" height="480"></p>
+	
+		
+
+	<h2 id="Main Heading of the Page">Main Heading of the Page (hard not to have it)</h2>
+  	<div>*** DIV 1: Some content here ***</div>
+  	<div>*** DIV 2: Following right after div 1 ***</div>
+  	<span>*** SPAN 1: Following right after div 2 ***</span>
+  	<div>
+    	*** DIV 3: Following right after span 1 
+    	<span>*** SPAN 2: INSIDE div 3 ***</span>
+    	Continue content of div 3 ***
+  	</div>
+  	<!-- Hier steht ein Kommentar mit einer Zeile -->
+
+	<!--
+	1. Zeile des Kommentars
+	2. Zeile des Kommentars
+	...
+
+	-->
+
+<h3 id="Subheading in HTML"> Subheading in HTML: </h3>
+	<div>we can use subheading to show which Subheading  is important or less important</div>
+  	<h1>Subheading 1</h1>     <!-- it used to notify the most important the Subheading --> 
+  	<h2>Subheading 2</h2>
+  	<h3>Subheading 3</h3>
+  	<h4>Subheading 4</h4>
+  	<h5>Subheading 5</h5>
+  	<h6>Subheading 6</h6>
+<h4 id="Semantik in HTML">Semantik in HTML</h4>
+  	<section>
+    	Section 1
+    	<article>Article 1</article>
+    	<article>Article 2</article>
+    	<article>Article 3</article>
+  	</section>
+  	<section>
+    	Section 2
+    	<article>Article 4</article>
+    	<article>Article 5</article>
+    	<article>Article 6</article>
+    	<div>Regular DIV element</div>
+ 	</section>
+ 	<h5 id="Lists in HTML">How th list in HTML:</h5>
+ 	<div>
+    	Oreo cookie eating procedure:     <!-- <ol>....</ol> it used to list a list in order-->
+    	<ol>
+      	<li>Open box</li>
+      	<li>Take out cookie</li>
+      	<li>Make a Double Oreo
+        <ol>
+          <li>Peel off the top part</li>
+          <li>Place another cookie in the middle</li>
+          <li>Put back the top part</li>
+        </ol>
+      	</li>
+      	<li>Enjoy!</li>
+    	</ol>
+  	</div>
+  	<div>
+    
+    My typical dinner shopping list:
+    <ul>                    <!-- <ol>....</ol> it used to list a list not in order-->
+      <li>Milk</li>
+      <li>Donuts</li>
+      <li>Cookies
+        	<ul>
+          		<li>Chocolate</li>
+          		<li>Sugar</li>
+          		<li>Peanut Butter</li>
+        	</ul>
+      	</li>
+      	<li>Pepto Bismol</li>
+    </ul>
+
+
+  	</div>
+  	
+    <h6 id="section1">How to link in HTML:</h6>
+    <ul>
+	<li><h1>Internal Links</h1></li>
+	<section>
+	    We can link to a file in the same directory as this HTML file like this:
+	    <a href="index.html" title="link to the same directory">Linking to a file in the same directory</a>
+
+	    <a href="index.html" title="link to the same directory">
+	      <div> DIV Linking to a file in the same directory</div>
+	    </a>
+	</section>
+	<li><h1>External Links</h1></li>
+  	<section>
+  	<p>
+      Let's link to a  outube page!
+      <!-- link to Youtube page WITH TARGET-->
+      <a href="https://www.youtube.com/" 
+      target="_blank" title="Youtube Page injoy it">Youtube Page!</a> <!-- targen="_blank" it used to open the link in new tab -->
+    </p>
+    </section>
+    </ul>
+  	<aside>
+    	ASIDE - Some information that relates to the main topic, i.e., related posts.
+  	</aside>
+
+ 	<footer>
+    	Yousef first page &copy;
+  	</footer>
 </body>
 </html>

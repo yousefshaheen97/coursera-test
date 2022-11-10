@@ -1,0 +1,13 @@
+browser-sync start --server --directory --files "*"   // browsersync
+.........................
+git  add --all
+git commit -m "dsfgd"
+git push
+// update git hub with changes
+
+
+..................................
+HTML
+& = &amp;
+< = &lt;
+> = &gt;
